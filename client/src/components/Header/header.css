@@ -1,0 +1,60 @@
+.Header-container{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.Header-leftContainer{
+  width: 20%;
+}
+
+.Header-leftContainerLogo{
+  margin-left: 1em;
+  width: 20%;
+}
+
+.Header-centerContainer{
+  display: flex;
+  align-items: center;
+  border: 2px solid black;
+  border-radius: 5px;
+  width: 60%;
+}
+
+.Header-centerInputField{
+  flex: 1;
+  border: none;
+  outline: none;
+}
+
+.Header-centerIcon{
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  margin-right: -1px;
+  margin-bottom: -1px;
+  margin-top: -1px;
+  padding: 0.4em;
+  background-color: black;
+  color: white;
+}
+
+.Header-rightContainer{
+  margin-right: 5em;
+  display: flex;
+  align-items: center;
+}
+
+.Header-rightLinkText{
+  margin-right: 0.8em;
+}
+
+.Header-rightButton{
+  border-radius: 999px;
+  padding: 0.5em 2em;
+}
+
+.Header-rightButton:hover{
+  transition: ease-in-out 0.4s;
+  background-color: black;
+  color: white;
+}

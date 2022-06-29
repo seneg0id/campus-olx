@@ -1,0 +1,23 @@
+.HomeBanner{
+    display: block;
+    margin: 0 auto;
+    width: 60%;
+}
+
+.Categories-available{
+    display: flex;
+}
+
+.Category-title{
+    font: bold;
+    margin-right: 2em;
+}
+
+.Actual-categories{
+    display: flex;
+}
+
+.Categories-inStock{
+    margin-right: 2em;
+    font-weight: normal;
+}
