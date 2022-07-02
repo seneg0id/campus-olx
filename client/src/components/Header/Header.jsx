@@ -4,7 +4,15 @@ import SearchIcon from '@mui/icons-material/Search'
 import logo from '../../images/logo.png'
 
 const Header = () => {
+  const nav = [
+    {ID:1,label:"Mobile Phones"},
+    {ID:2,label:"bicycles"},
+    {ID:3,label:"Laptops"},
+    {ID:4,label:"Computer & Accessories"},
+    {ID:5,label:"Cameras"}
+  ]
   return (
+    <div className='hnav'>
     <div className='Header-container'>
       <div className="Header-leftContainer">
         <img src={logo} alt="Olx-Clone-Logo" className='Header-leftContainerLogo'/>
@@ -17,6 +25,22 @@ const Header = () => {
         <h4 className='Header-rightLinkText'>Login</h4>
         <button className='Header-rightButton'>SELL</button>
       </div>
+    </div>
+    <div className="Categories-available">
+        <button className="Category-title">
+          <h4>All Categories</h4>
+          <i class="fa-solid fa-angle-down"></i>
+        </button>
+        <div className='Actual-categories'>
+          {
+            nav.map(item=>{
+              return(
+                <h4 className='Categories-inStock'>{item.label}</h4>
+              )
+            })
+          }
+        </div>
+    </div>
     </div>
   )
 }

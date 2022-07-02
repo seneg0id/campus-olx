@@ -1,3 +1,7 @@
+.hnav{
+  display: flex;
+  flex-direction: column;
+}
 .Header-container{
   display: flex;
   align-items: center;
@@ -57,4 +61,24 @@
   transition: ease-in-out 0.4s;
   background-color: black;
   color: white;
+}
+
+.Categories-available{
+  display: flex;
+}
+
+.Category-title{
+  font-weight: 100;
+  display: flex;
+  align-items: center;
+  margin-right: 2em;
+}
+
+.Actual-categories{
+  display: flex;
+}
+
+.Categories-inStock{
+  margin-right: 2em;
+  font-weight: normal;
 }
