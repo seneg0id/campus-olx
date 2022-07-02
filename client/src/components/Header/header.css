@@ -1,23 +1,23 @@
-.hnav{
+.hnav {
   display: flex;
   flex-direction: column;
 }
-.Header-container{
+.Header-container {
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
 
-.Header-leftContainer{
+.Header-leftContainer {
   width: 20%;
 }
 
-.Header-leftContainerLogo{
+.Header-leftContainerLogo {
   margin-left: 1em;
   width: 20%;
 }
 
-.Header-centerContainer{
+.Header-centerContainer {
   display: flex;
   align-items: center;
   border: 2px solid black;
@@ -25,13 +25,13 @@
   width: 60%;
 }
 
-.Header-centerInputField{
+.Header-centerInputField {
   flex: 1;
   border: none;
   outline: none;
 }
 
-.Header-centerIcon{
+.Header-centerIcon {
   border-top-right-radius: 5px;
   border-bottom-right-radius: 5px;
   margin-right: -1px;
@@ -42,43 +42,45 @@
   color: white;
 }
 
-.Header-rightContainer{
+.Header-rightContainer {
   margin-right: 5em;
   display: flex;
   align-items: center;
 }
 
-.Header-rightLinkText{
+.Header-rightLinkText {
   margin-right: 0.8em;
 }
 
-.Header-rightButton{
+.Header-rightButton {
   border-radius: 999px;
   padding: 0.5em 2em;
 }
 
-.Header-rightButton:hover{
+.Header-rightButton:hover {
   transition: ease-in-out 0.4s;
   background-color: black;
   color: white;
 }
 
-.Categories-available{
+.Categories-available {
   display: flex;
 }
 
-.Category-title{
+.Category-title {
   font-weight: 100;
   display: flex;
   align-items: center;
   margin-right: 2em;
+  border: none;
+  background-color: white;
 }
 
-.Actual-categories{
+.Actual-categories {
   display: flex;
 }
 
-.Categories-inStock{
+.Categories-inStock {
   margin-right: 2em;
   font-weight: normal;
 }
