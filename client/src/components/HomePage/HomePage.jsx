@@ -5,7 +5,6 @@ const HomePage = () => {
   return (
     <div className='HomePage-container'>
         <Header />
-        <Banner />
     </div>
   )
 }
