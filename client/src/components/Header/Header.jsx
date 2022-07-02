@@ -2,6 +2,7 @@ import React from 'react'
 import './header.css'
 import SearchIcon from '@mui/icons-material/Search'
 import logo from '../../images/logo.png'
+import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 
 const Header = () => {
   const nav = [
@@ -29,7 +30,7 @@ const Header = () => {
     <div className="Categories-available">
         <button className="Category-title">
           <h4>All Categories</h4>
-          <i class="fa-solid fa-angle-down"></i>
+          <ExpandMoreIcon className='Header-centerIcon'/>
         </button>
         <div className='Actual-categories'>
           {
